@@ -1,0 +1,14 @@
+type Applicant {
+  id: ID!
+  name: String!
+  location: String
+  contactInfo: ContactInfo!
+  skills: [String!]!
+  experience: [Experience!]
+  education: [Education!]
+  certifications: [String]
+  portfolio: [Portfolio!]
+  references: [Reference]
+  availability: Availability
+}
+# Other types (ContactInfo, Experience, etc.) as described earlier

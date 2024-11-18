@@ -1,0 +1,15 @@
+type Job {
+  id: ID!
+  companyName: String!
+  position: String!
+  location: String
+  remote: Boolean
+  salaryRange: SalaryRange
+  requiredSkills: [String!]!
+  preferredSkills: [String]
+  jobDescription: String
+  applicationProcess: ApplicationProcess
+  benefits: [String!]
+  companyInfo: CompanyInfo
+}
+# Other types (SalaryRange, ApplicationProcess, etc.) as described earlier
