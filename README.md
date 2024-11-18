@@ -17,6 +17,17 @@ This project aims to:
 - **GraphQL API** for seamless data querying and filtering.
 - Support for **component-based architecture** in frontend frameworks (React, Vue, Angular, etc.) and **platform-agnostic cloud computing skills** (AWS, Azure, GCP).
 
+### **Next Steps**
+1. Implement the `ats.graphql` schema and resolvers.
+2. Create the `atsService.js` to handle:
+   - Workflow management.
+   - Candidate matching logic (e.g., comparing `skills`).
+3. Build a basic front-end component (`ATSDashboard.vue`) to manage the applicant pipeline.
+4. Document the workflow for contributing to ATS-specific features.
+
+Let me know if you'd like help setting up any specific files or parts of the ATS!
+
+
 ## **Schemas**
 
 ### **Applicant Schema**
@@ -75,14 +86,3 @@ type Availability {
   hoursPerWeek: Int
 }
 
----
-
-### **Next Steps**
-1. Implement the `ats.graphql` schema and resolvers.
-2. Create the `atsService.js` to handle:
-   - Workflow management.
-   - Candidate matching logic (e.g., comparing `skills`).
-3. Build a basic front-end component (`ATSDashboard.vue`) to manage the applicant pipeline.
-4. Document the workflow for contributing to ATS-specific features.
-
-Let me know if you'd like help setting up any specific files or parts of the ATS!
