@@ -74,3 +74,15 @@ type Availability {
   relocation: Boolean
   hoursPerWeek: Int
 }
+
+---
+
+### **Next Steps**
+1. Implement the `ats.graphql` schema and resolvers.
+2. Create the `atsService.js` to handle:
+   - Workflow management.
+   - Candidate matching logic (e.g., comparing `skills`).
+3. Build a basic front-end component (`ATSDashboard.vue`) to manage the applicant pipeline.
+4. Document the workflow for contributing to ATS-specific features.
+
+Let me know if you'd like help setting up any specific files or parts of the ATS!
