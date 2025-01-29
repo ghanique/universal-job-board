@@ -1,0 +1,1 @@
+Indicates that a list is not finite.

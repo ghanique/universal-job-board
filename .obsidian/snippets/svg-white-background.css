@@ -1,0 +1,7 @@
+img[src*=".svg"] {
+    background-color: white;
+}
+
+img[src*="data:image/svg"] {
+    background-color: white;
+}

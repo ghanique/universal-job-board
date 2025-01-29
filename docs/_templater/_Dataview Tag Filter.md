@@ -1,0 +1,1 @@
+WHERE econtains(file.tags, "#<% tp.file.cursor(1) %>")

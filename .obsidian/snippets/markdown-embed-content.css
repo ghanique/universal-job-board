@@ -1,0 +1,7 @@
+.markdown-embed-content {
+    max-height: unset;
+}
+
+.markdown-embed-content p:first-child {
+    margin-top: unset;
+}

@@ -1,0 +1,7 @@
+img[src*=".png"] {
+    background-color: white;
+}
+
+img[src*="data:image/png"] {
+    background-color: white;
+}
